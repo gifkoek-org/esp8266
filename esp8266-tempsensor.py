@@ -15,6 +15,7 @@ from machine import I2C, Pin
 from esp8266_i2c_lcd import I2cLcd
 from time import sleep_ms, ticks_ms
 import network
+import urequests
 
 def start_tempsensor(pin_number):
 
